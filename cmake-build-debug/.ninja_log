@@ -1,9 +1,4 @@
 # ninja log v6
-1	310	1722055561447234007	CMakeFiles/ClassPrac.dir/main.cpp.o	ddec264add2686e
-1	313	1722055561447851921	CMakeFiles/ClassPrac.dir/Vehicles.cpp.o	4edbcc28d7c2e6f9
-313	407	1722055561759526991	ClassPrac	faf340fe4bce3c78
-6	263	1722055588035216368	CMakeFiles/ClassPrac.dir/Vehicles.cpp.o	4edbcc28d7c2e6f9
-263	286	1722055588292362666	ClassPrac	faf340fe4bce3c78
 5	198	1722055925077637490	CMakeFiles/ClassPrac.dir/main.cpp.o	ddec264add2686e
-6	199	1722055925078025113	CMakeFiles/ClassPrac.dir/Vehicles.cpp.o	4edbcc28d7c2e6f9
 199	220	1722055925270957097	ClassPrac	faf340fe4bce3c78
+6	199	1722055925078025113	CMakeFiles/ClassPrac.dir/Vehicles.cpp.o	4edbcc28d7c2e6f9

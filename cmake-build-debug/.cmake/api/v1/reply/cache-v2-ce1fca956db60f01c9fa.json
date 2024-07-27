@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/ishan/Desktop/Coding Material And Codes/Code/Monash College Codespace/MCD4720/ClassPrac/cmake-build-debug"
+			"value" : "/Users/ishan/Desktop/Coding Material And Codes/CarManagementSystem/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/ishan/Desktop/Coding Material And Codes/Code/Monash College Codespace/MCD4720/ClassPrac/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/ishan/Desktop/Coding Material And Codes/CarManagementSystem/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/ishan/Desktop/Coding Material And Codes/Code/Monash College Codespace/MCD4720/ClassPrac"
+			"value" : "/Users/ishan/Desktop/Coding Material And Codes/CarManagementSystem"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1127,7 +1127,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/ishan/Desktop/Coding Material And Codes/Code/Monash College Codespace/MCD4720/ClassPrac/cmake-build-debug"
+			"value" : "/Users/ishan/Desktop/Coding Material And Codes/CarManagementSystem/cmake-build-debug"
 		},
 		{
 			"name" : "ClassPrac_IS_TOP_LEVEL",
@@ -1151,7 +1151,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/ishan/Desktop/Coding Material And Codes/Code/Monash College Codespace/MCD4720/ClassPrac"
+			"value" : "/Users/ishan/Desktop/Coding Material And Codes/CarManagementSystem"
 		}
 	],
 	"kind" : "cache",

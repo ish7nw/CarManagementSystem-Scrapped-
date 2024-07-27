@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ishan/Desktop/Coding Material And Codes/Code/Monash College Codespace/MCD4720/ClassPrac
+# Install script for directory: /Users/ishan/Desktop/Coding Material And Codes/CarManagementSystem
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/ishan/Desktop/Coding Material And Codes/Code/Monash College Codespace/MCD4720/ClassPrac/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/ishan/Desktop/Coding Material And Codes/CarManagementSystem/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

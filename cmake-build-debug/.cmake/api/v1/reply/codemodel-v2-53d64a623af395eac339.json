@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/ishan/Desktop/Coding Material And Codes/Code/Monash College Codespace/MCD4720/ClassPrac/cmake-build-debug",
-		"source" : "/Users/ishan/Desktop/Coding Material And Codes/Code/Monash College Codespace/MCD4720/ClassPrac"
+		"build" : "/Users/ishan/Desktop/Coding Material And Codes/CarManagementSystem/cmake-build-debug",
+		"source" : "/Users/ishan/Desktop/Coding Material And Codes/CarManagementSystem"
 	},
 	"version" : 
 	{
