@@ -4,6 +4,8 @@
 #include<string>
 #include<vector>
 
+void displayOptions();
+
 class Vehicles{
 private:
 

@@ -91,3 +91,26 @@ bool Vehicles::getStock(){
 
     return stock;
 }
+
+void displayOptions(){
+
+    int userChoice;
+
+    do
+    {
+        std::cout << "\n--Welcome To Arcturus Motors--\n";
+        std::cout << std::endl;
+
+        std::cout << "You can buy, sell and check car prices on this application.\n";
+        std::cout << "1. Buy a car\n";
+        std::cout << "2. Sell a car\n";
+        std::cout << "3. Get car details\n";
+        std::cout << "4. Exit\n";
+
+        std::cout << "What would you like to do: ";
+        std::cin >> userChoice;
+    }
+    while(userChoice != 4);
+
+    
+}
