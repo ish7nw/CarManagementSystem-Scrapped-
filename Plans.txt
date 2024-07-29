@@ -1,0 +1,63 @@
+
+* Objective: What I plan to do is to creata a software that will emulate an online car dealership.
+             It will give the user options to sell cars and purchase cars.
+             Selling cars will add cars in the database and i plan on storing them inside a file or maybe an array or a vector.
+             buying cars will make the car disappear from the database.
+
+             Forget about it, I will store the details in a file, that is more logical, i will not use that much of memory
+
+ * Procedure:
+            First i want to find a method such that I prompt the user that what do you wanna do, then if the user selects to sell car,
+            the program will make an object of the class and ask the user to enter the details of the car.
+
+            If the user selects to buy a car, a list will be displayed with the models of the car
+
+
+* New Way:
+            Taking user option if the user wants to create a new vehicle, if yes, then storing the parameters in seperate variables
+            then calling the constructor with the variables in order to create the instance of the classes
+
+* getVehicleDetails(){
+
+* getVehicleMake()
+* getVehicleModel()
+* getVehiclePrice()
+* getVehicleBadge()
+* getVehicleStock()
+
+}
+
+* Another idea:
+                   One more thing that we can do is that we can call the constructor without using variables
+                   we will just return the values in the function and then make it a nested function call in order to
+                   create the instance of the object.
+
+                   ** Changing the name of this function to get the object name and then applying the same logic
+                   of passing the return values in function calls to declare an object
+
+
+
+
+
+
+
+
+
+
+
+* Deferred Code:
+//    Vehicles vehicle1("Toyota", "Supra", "2-JZ RZ Manual", 750000.00, false);
+//
+//    std::cout << "The maker of vehicle 1 is: " << vehicle1.getMake() << std::endl;
+//    std::cout << "The model of vehicle 1 is: " << vehicle1.getModel() << std::endl;
+//    std::cout << "The badge of vehicle 1 is: " << vehicle1.getBadge() << std::endl;
+//    std::cout << "The price of vehicle 1 is: $" << vehicle1.getPrice() << std::endl;
+//
+//    if(vehicle1.getStock() == 0)
+//    {
+//        std::cout << vehicle1.getModel() << " of the badge " << vehicle1.getBadge() << " is not in stock currently." << std::endl;
+//    }
+//    else
+//    {
+//        std::cout << "It is in stock." << std::endl;
+//    }

@@ -2,7 +2,7 @@
 
 int main(){
 
-    displayOptions();
+
 
 
     return 0;

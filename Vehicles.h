@@ -3,8 +3,15 @@
 #include<iostream>
 #include<string>
 #include<vector>
+#include<fstream>
 
 void displayOptions();
+std::string getObjectName();
+std::string getVehicleMaker();
+std::string getVehicleModel();
+std::string getVehicleBadge();
+double getVehiclePrice();
+bool getVehicleStock();
 
 class Vehicles{
 private:
@@ -16,6 +23,11 @@ private:
    bool stock;
 
 public:
+
+    // constructor
+    Vehicles();
+    Vehicles(std::string vMake, std::string vModel, std::string vBadge, double vPrice, bool vStock);
+
 
     // getters
     std::string getMake();
