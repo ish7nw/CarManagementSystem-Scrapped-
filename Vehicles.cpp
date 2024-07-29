@@ -161,7 +161,7 @@ void displayOptions(){
 
           while(generate)
           {
-              Vehicles v[counter](vMaker, vModel, vBadge, vPrice, vStock);
+              Vehicles objectName(vMaker, vModel, vBadge, vPrice, vStock);
               counter++;
               generate = false;
           }
@@ -185,8 +185,9 @@ std::string getObjectName(){
 std::string getVehicleMaker(){
     std::string make;
 
-    std::cout << "Who is the cmpany that made your vehicle: ";
+    std::cout << "Who is the company that made your vehicle: ";
     std::cin >> make;
+    std::cin.clear();
 
     return make;
 
