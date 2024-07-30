@@ -13,6 +13,7 @@ std::string getVehicleBadge();
 double getVehiclePrice();
 bool getVehicleStock();
 
+
 class Vehicles{
 private:
 

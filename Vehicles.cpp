@@ -119,6 +119,13 @@ bool Vehicles::getStock(){
 
 void displayOptions(){
 
+    std::ofstream fileWriter;
+    std::ifstream fileReader;
+
+    // cretaing the file and storing the data of the cars in the file
+
+    fileWriter.open("VehicleDataBase.txt",std::ios::app);
+
     int userChoice;
 
     do
@@ -156,14 +163,31 @@ void displayOptions(){
 
             /// CREATING AN OBJECT HERE
 
-          int counter = 0;
+
           bool generate = true;
 
           while(generate)
           {
-              Vehicles objectName(vMaker, vModel, vBadge, vPrice, vStock);
-              counter++;
+              Vehicles(vMaker, vModel, vBadge, vPrice, vStock);
+
+
+              if(fileWriter.is_open())
+              {
+                  fileWriter << vMaker << std::endl;
+                  fileWriter << vModel << std::endl;
+                  fileWriter << vBadge << std::endl;
+                  fileWriter << vPrice << std::endl;
+                  fileWriter << vStock << std::endl;
+
+              }
+              else
+              {
+                  std::cout << "Can not find the database.\n";
+              }
+
+              fileWriter.close();
               generate = false;
+
           }
 
         }
@@ -173,6 +197,14 @@ void displayOptions(){
 
 }
 
+
+
+
+
+// other function deifinitions
+
+
+
 std::string getObjectName(){
     std::string objName;
 
@@ -181,6 +213,8 @@ std::string getObjectName(){
 
     return objName;
 }
+
+
 
 std::string getVehicleMaker(){
     std::string make;
@@ -193,6 +227,8 @@ std::string getVehicleMaker(){
 
 }
 
+
+
 std::string getVehicleModel(){
     std::string model;
 
@@ -201,6 +237,9 @@ std::string getVehicleModel(){
 
     return model;
 }
+
+
+
 
 std::string getVehicleBadge(){
     std::string badge;
@@ -212,6 +251,10 @@ std::string getVehicleBadge(){
 
 }
 
+
+
+
+
 double getVehiclePrice(){
     double price;
 
@@ -220,6 +263,11 @@ double getVehiclePrice(){
 
     return price;
 }
+
+
+
+
+
 
 bool getVehicleStock(){
     bool inStock;
@@ -247,3 +295,4 @@ bool getVehicleStock(){
 
     return inStock;
 }
+

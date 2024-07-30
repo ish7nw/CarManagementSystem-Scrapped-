@@ -1,0 +1,10 @@
+Toyota
+Supra
+JZ2
+450000
+0
+Audi
+RS6
+Sports
+145000
+1
